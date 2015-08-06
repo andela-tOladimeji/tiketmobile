@@ -1,0 +1,116 @@
+/* Styles.css
+  Author: Oladimeji Tolu
+  website: extu.me
+  Date: 05/08/2015 */
+/* line 15, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+body {
+  background: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 1.4; }
+
+/* line 22, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  font-weight: 300;
+  color: #4A4A4A; }
+
+/* line 28, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.navbar-toggle {
+  border: none;
+  color: #4A4A4A; }
+  /* line 31, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+  .navbar-toggle:focus {
+    background: #CFE076;
+    color: #4A4A4A; }
+
+/* line 35, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #4A4A4A; }
+
+/* line 38, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fafafa; }
+
+/* line 41, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.navbar-brand {
+  margin-top: -5px; }
+
+/* line 44, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.hero {
+  height: 250px;
+  background: url("/img/hero.jpg") center no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  transition: opacity 0.5s;
+  margin-bottom: 0px;
+  opacity: 0.9;
+  background-color: #CFE076; }
+  /* line 55, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+  .hero h2 {
+    margin: 0;
+    padding: 80px 0;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    line-height: 1.2; }
+  /* line 64, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+  .hero h3 {
+    padding: 10px 0;
+    color: #4A4A4A;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 300; }
+
+/* line 72, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.btn-lg {
+  background: #00CCE8;
+  border-radius: 0;
+  border: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  padding: 16px 30px;
+  margin-top: 20px; }
+  /* line 80, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+  .btn-lg:hover {
+    background: #CFE076;
+    color: #4A4A4A; }
+
+/* line 85, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.route {
+  background-color: #CFE076;
+  color: #4A4A4A;
+  height: 50px; }
+  /* line 89, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+  .route h4 {
+    padding: 5px 0;
+    font-size: 20px; }
+
+/* line 94, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.route-form h3 {
+  padding: 5px 0;
+  color: #4A4A4A;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 300; }
+
+/* line 100, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.route-form label {
+  font-size: 14px;
+  font-weight: 400; }
+
+/* line 106, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.route-card h4 {
+  font-weight: 600; }
+
+/* line 108, /Users/tolu/Desktop/tuts/tiketmobile/styles.sass */
+.route-card p {
+  display: inline;
+  word-wrap: break-word;
+  font-size: 18px;
+  line-height: 1.8; }
+
+/*# sourceMappingURL=styles.css.map */

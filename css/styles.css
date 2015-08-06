@@ -1,0 +1,94 @@
+/* Styles.css
+ * Author: Oladimeji Tolu
+ * website: extu.me
+ * Date: 05/08/2015 */
+body {
+  background: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  line-height: 1.4; }
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  font-weight: 300;
+  color: #4A4A4A; }
+
+.navbar-toggle {
+  border: none;
+  color: #4A4A4A; }
+  .navbar-toggle:focus {
+    background: #CFE076;
+    color: #4A4A4A; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #4A4A4A; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fafafa; }
+
+.navbar-brand {
+  margin-top: -5px; }
+
+.hero {
+  height: 250px;
+  background: url("/img/hero.jpg") center no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  transition: opacity 0.5s;
+  margin-bottom: 0px;
+  opacity: 0.9;
+  background-color: #CFE076; }
+  .hero h2 {
+    margin: 0;
+    padding: 80px 0;
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    line-height: 1.2; }
+  .hero h3 {
+    padding: 10px 0;
+    color: #4A4A4A;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    font-weight: 300; }
+
+.btn-lg {
+  background: #00CCE8;
+  border-radius: 0;
+  border: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #FFFFFF;
+  padding: 16px 30px;
+  margin-top: 20px; }
+  .btn-lg:hover {
+    background: #CFE076;
+    color: #4A4A4A; }
+
+.route {
+  background-color: #CFE076;
+  color: #4A4A4A;
+  height: 50px; }
+  .route h4 {
+    padding: 5px 0;
+    font-size: 20px; }
+
+.route-form h3 {
+  padding: 5px 0;
+  color: #4A4A4A;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 300; }
+.route-form label {
+  font-size: 14px;
+  font-weight: 400; }
+
+.route-card h4 {
+  font-weight: 600; }
+.route-card p {
+  display: inline;
+  word-wrap: break-word;
+  font-size: 18px;
+  line-height: 1.8; }
